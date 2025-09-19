@@ -1,6 +1,6 @@
 ---
 - name: Get list of running services on Windows
-  hosts: your_windows_hosts
+  hosts: all 
   gather_facts: false # Not strictly necessary for this task, but can be set to false if only running specific commands
 
   tasks:
