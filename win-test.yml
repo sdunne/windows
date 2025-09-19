@@ -1,6 +1,6 @@
 ---
 - name: Simple win_ping test
-  hosts: windows
+  hosts: all
 
   tasks:
     - name: Simple win_ping to target Windows host
