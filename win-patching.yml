@@ -1,7 +1,6 @@
 ---
 - name: Simple Windows patching
   hosts: all
-  become: true
   check_mode: true
 
   vars:
