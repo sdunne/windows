@@ -2,7 +2,7 @@
 - name: Stop and start IIS service
   hosts: all
   vars:
-    service_state: stop
+    service_state: started
 
   tasks:
     - name: Start IIS service
