@@ -5,7 +5,7 @@
     service_state: started
 
   tasks:
-    - name: Start IIS service
+    - name: Change state of IIS service
       ansible.windows.win_service:
         name: W3Svc
         state: "{{ service_state }}"
