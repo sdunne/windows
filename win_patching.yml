@@ -6,6 +6,7 @@
   vars:
     win_update_categories:
       - CriticalUpdates
+      - SecurityUpdates
     allow_reboot: true
 
   tasks:

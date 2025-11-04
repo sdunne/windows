@@ -2,7 +2,7 @@
 - name: Install IIS
   hosts: all
   vars:
-    iis_message: undef
+    iis_message: "Test web content"
 
   tasks:
     - name: Install IIS
